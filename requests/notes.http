@@ -1,0 +1,19 @@
+POST http://localhost:3001/api/notes
+Content-Type: application/json
+
+{
+    "content": "I like nodejs",
+    "important": false
+}
+
+###
+
+GET http://localhost:3001/api/notes
+
+###
+// Get by id
+GET http://localhost:3001/api/notes/619b1fa9d50b83603401dd98
+
+###
+// delete note by id
+DELETE http://localhost:3001/api/notes/619c4aefe7738bdbfae32c17
